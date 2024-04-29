@@ -2,6 +2,7 @@ import pygame
 from sys import argv
 from pyautogui import size as screen_size
 
+pygame.init()
 
 class Events:
     class mouse:
